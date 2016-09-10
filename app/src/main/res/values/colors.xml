@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#830309</color>
+    <color name="colorPrimaryDark">#d41114</color>
+    <color name="colorAccent">#000000</color>
+    <color name="fondoTextoChico">#6b8bea</color>
+    <color name="alphaNegroStatusBar">#6a000000</color>
+    <color name="alphaOverflow">#1cff058a</color>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ComedyCentralGUI</string>
+    <string name="abbeyroad">Abbey Road</string>
+    <string name="config">Configuración</string>
+</resources>

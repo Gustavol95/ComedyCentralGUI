@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="false"
+    tools:context="co.allza.comedycentralgui.MainActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/white">
+
+    </android.support.v7.widget.Toolbar>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpGrande"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </android.support.v4.view.ViewPager>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpChico"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cuadradoChico"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="170dp"
+        android:background="@android:color/transparent"
+        android:clickable="false"
+        android:clipToPadding="false"
+        android:focusable="false"
+        android:paddingLeft="25dp"
+
+        ></android.support.v4.view.ViewPager>
+
+
+</FrameLayout>
